@@ -4,4 +4,4 @@ app = Flask(__name__)
 def home():
     return "Hello from Azure App Service!"
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
